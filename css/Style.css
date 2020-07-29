@@ -1,0 +1,418 @@
+body{
+    background-color:  #d5e7de;
+}
+
+.header-nav{
+    background-color: #24262d;
+    height: 100px;
+}
+/* Restaurant name*/
+.navbar-brand h1{  
+    font-family: 'Lora', serif;
+    color: #557c3e;
+    font-size: 2vw ;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+
+
+
+}
+.navbar-brand a:hover,.navbar-brand a:focus{
+    text-decoration: none;
+}
+.navbar-brand p{
+   color: #000;
+   text-transform: uppercase;
+   text-align: center;
+}
+#logo-img{
+  background: url(http://sagargairefastfoodcorner.com/wp-content/uploads/2014/09/logoeng.png) no-repeat  ;
+  height:100px;
+
+  width: 250px;
+  max-width: auto;
+    float: left;
+}
+
+.carousel-item {
+  height: 400px;
+
+}
+
+.navbar-brand p span{
+    vertical-align: middle;
+
+
+  }
+.navbar-brand{
+margin-top: 20px;
+margin-left: 250px;
+/*position: initial;*/
+
+}
+
+#menu,#special,#map{
+  margin-top: 50px;
+  margin-left: 150px;
+  height: 230px;
+  width: 228px;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+  float: left;
+   border-radius: .5rem;
+}
+#menu span,#special span,#map span{
+  position: absolute;
+  color: black;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  background-color: #000;
+  color: #fff;
+  opacity: .6;
+  text-transform: uppercase;
+
+
+}
+#menu:hover,#special:hover,#map:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+#menu{
+    background : url('menu.jpg') no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#picture-special{
+    background : url('special.jpg') no-repeat; 
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+ 
+
+
+}
+
+#option{
+  text-align: center;
+  font-family: 'Lora', serif;
+  font-size: 1.8em;
+  margin-top: 20px;
+}
+
+/*FOOTER*/
+
+.footer{
+  background-color: green;
+  height: 270px;
+      margin-top: 298px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    background-color: #222;
+    border-top: 0;
+    width: auto;
+
+}
+ .row{
+  /*margin-top: 25px;*/
+  color: red;
+  width: -webkit-fill-available;
+
+}
+#hours{
+  /*margin-left: 8%;*/
+  margin-left: 0px;
+}
+#testimonials, #Address{
+  margin-left: 10%;
+  /*margin-right: 2vw;*/
+}
+
+ #hours,#Address,#testimonials{
+  /*float: left;*/
+   line-height: 2;
+   text-align: center;
+
+}
+#copyright{
+  width: -webkit-fill-available;
+  text-align: center;
+}
+
+/*END FOOTER*/
+
+
+
+
+
+
+
+@media(min-width: 1200px){
+.navbar-toggle {
+  display: none;
+}
+#collapsable-nav{
+
+/*display: table;*/
+
+}
+#about{
+  float: right;
+}
+
+
+.footer{
+margin-top: 298px;
+height: 20em;
+}
+
+.visible-xs{
+  display: none;
+}
+.collapsable-nav{
+
+}
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+#logo-img{
+ height:100px;
+
+  width: 250px;
+  /*max-width: auto;*/
+  margin-left: 32%;
+    
+}
+
+.navbar-brand h1, .navbar-brand p{
+  display:   none;
+}
+
+#menu, #special{
+  width: 27.5%;
+}
+
+#map{
+  margin-top: 1.5em;
+  width: 68.5%;
+}
+.navbar-toggle{
+  display: none;
+}
+
+
+/*FOOTER*/
+.footer{
+margin-top: 37em;
+height: 20em;
+}
+
+#hours{
+  /*margin-left: 5vw;*/
+}
+
+#testimonials{
+  /*margin-right: 5vw;*/
+}
+.visible-xs{
+  display: none;
+}
+
+  }
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+#logo-img{
+ height:100px;
+
+  width: 250px;
+  max-width: auto;
+  margin-left: 40%;
+    
+}
+.navbar-brand h1, .navbar-brand p{
+  display:   none;
+}
+.navbar-toggle {
+  display: none;
+}
+
+#map{
+  margin-top: 1.5em;
+  width: 68.5%;
+}
+#menu, #special{
+  width: 27.5%;
+}
+.footer{
+  margin-top: 37em;
+  height: auto;
+
+}
+#hours{
+  /*margin-left: 5vw;*/
+ width: 10em; 
+}
+
+#testimonials{
+  /*margin-right: 5vw;*/
+  /*width: auto;
+}*/
+
+
+}
+.visible-xs{
+  display: none;
+}
+
+}
+
+
+
+
+
+@media(max-width: 767px){
+
+  #logo-img{
+    margin-left: 30%;
+  }
+  .navbar-brand{
+    display: none;
+  }
+  .navbar-toggle{
+    float: right;
+    /*height: 30px;
+    /*width: 47px;*/
+    margin-top: 40px;
+    padding: -4px;
+    border-radius: 0.25rem;
+    background-color: #c51f1f;
+    color: white;
+    /*position: absolute;*/
+    
+  }
+  .navbar-toggle:hover{
+   text-shadow: 1px 1px 1px #222;
+  }
+
+#collapsable-nav{
+ text-align: center;
+ background-color: #24262d;
+}
+#menu1,#about,#awards,#phone{
+
+border: 1px solid green;
+}
+#phone{
+  /*margin-top:  25px;*/
+}
+#we{
+  color: red;
+}
+#menu1 a:hover,#about a:hover,#awards a:hover,#phone a:hover{
+  text-decoration: none;
+}
+#menu1 a,#about a,#awards a,#phone a{
+  color:#63b7af; 
+}
+#click{
+  /*font-weight: bold;*/
+  font-family: 'Lora', serif;
+}
+
+#menu,#special{
+  display: none;
+}
+#map{
+  height: 26em;
+  width:50%;
+  margin: 20vw;
+
+    margin-bottom: 0;
+    margin-top: 2em;
+
+}
+#option{
+  display: none;
+}
+.footer{
+  margin-top: 30em;
+  height: 105%;
+
+}
+
+#hours{
+  min-width: fit-content;
+  margin-left: 25%;
+}
+#Address{
+  margin-left: 25%;
+  min-width: fit-content;
+ }
+ #testimonials {
+  /*width: 341px;*/
+  margin-left: 2%;
+  min-width: fit-content; 
+  
+ }
+ #Address{
+  /*width: 341px;*/
+ }
+.visible-xs{
+  /*width: auto;*/
+  background-color: #1af1f1;
+  width: 200px;
+
+}
+
+#copyright{
+  margin-top: 3em;
+}
+
+
+}
+
+@media(max-width: 575px){
+
+
+.header-nav{
+    background-color: #24262d;
+    height: 109px;
+}
+   #logo-img{
+    margin-left: 0;
+    margin-top: 9px;
+  }
+
+
+#hours{
+  margin-left: 0%;
+}
+#Address{
+  margin-left: 0%;
+}
+
+}
+
+
+
+
+@media(max-width: 318px){
+  .navbar-toggle{
+    margin-top: -30px;
+  }
+}
+
+
+
+
+
